@@ -5,24 +5,6 @@ import ProductCard from './ProductCard'
 import products from '../../../data/store.json'
 import { Context } from '../../../Store'
 
-function merge_array(array1, array2) {
-    var result_array = [];
-    var arr = array1.concat(array2);
-    var len = arr.length;
-    var assoc = {};
-
-    while(len--) {
-        var item = arr[len];
-
-        if(!assoc[item]) 
-        { 
-            result_array.unshift(item);
-            assoc[item] = true;
-        }
-    }
-
-    return result_array;
-}
 
 function ProductsContainer() {
     const allProductList = products.data;
@@ -31,17 +13,15 @@ function ProductsContainer() {
 
 
     useEffect(() => {
-        setCurrentProducts(filterByCategory(state.categories,allProductList))
-        
-        
-    }, [state.categories])
+        setCurrentProducts(filterAll(allProductList))
+    }, [state.categories,state.brands,state.tags])
     
 
     
 
     const filterByCategory = (categoryList, products) =>{
         if(categoryList.length===0){
-            return allProductList;
+            return products;
         }
         return products.filter((product)=>{
             for(var category of categoryList){
@@ -55,7 +35,7 @@ function ProductsContainer() {
 
     const filterByBrand = (brandList, products) =>{
         if(brandList.length===0){
-            return allProductList;
+            return products;
         }
         return products.filter((product)=>{
             for(var brand of brandList){
@@ -66,7 +46,25 @@ function ProductsContainer() {
             return false;
         })
     }
+
+    const filterByTag = (tagList, products) =>{
+        if(tagList.length === 0){
+            return products
+        }
+        return products.filter((product)=>{
+            for(var tag of tagList){
+                if(product.tags.includes(tag) && tag !== ''){
+                    return true;
+                }
+            }
+            return false;
+        })
+    }
    
+    const filterAll = (products) => {
+        const result = filterByCategory(state.categories,filterByBrand(state.brands,filterByTag(state.tags,products)))
+        return Array.from(result);
+    }
 
 
 

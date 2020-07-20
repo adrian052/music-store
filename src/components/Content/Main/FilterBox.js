@@ -30,8 +30,8 @@ function FilterBox() {
         <div className="mainContainer">
             <FilterItem title='Category' filterList={categoryList} actionType='CHANGE_CATEGORIES'/>
             <PriceFilter/>
-            <FilterItem title='Brand' filterList={brandList} actionType='CHANGE_BRAND'/>
-            <FilterItem title='Other filters' filterList={otherFilterList}/>
+            <FilterItem title='Brand' filterList={brandList} actionType='CHANGE_BRANDS'/>
+            <FilterItem title='Other filters' filterList={otherFilterList} actionType='CHANGE_TAGS'/>
         </div>
     )
 }

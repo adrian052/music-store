@@ -5,10 +5,15 @@ const Reducer = (state,action) => {
                 ...state,
                 categories: action.payload
             }
-        case 'CHANGE_BRAND':
+        case 'CHANGE_BRANDS':
             return {
                 ...state,
-                brand: action.payload
+                brands: action.payload
+            }
+        case 'CHANGE_TAGS':
+            return {
+                ...state,
+                tags: action.payload
             }
         default:
             return state

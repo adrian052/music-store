@@ -3,7 +3,8 @@ import Reducer from './Reducer'
 
 const initialState = {
     categories: [],
-    brand: []
+    brands: [],
+    tags:[]
 }
 
 
