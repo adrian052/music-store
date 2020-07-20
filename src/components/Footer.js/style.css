@@ -1,0 +1,25 @@
+.footerContainer{
+    background-color:  #027BFD;
+    box-sizing: border-box;
+}
+
+.rowFooter{
+    margin: 0;
+}
+
+.footerTitle{
+    color: beige;   
+    font-weight: 300;
+    border-bottom: 1px beige solid;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.footerList li{
+    list-style-type: none;
+}
+
+.footerList li a{
+    color: beige; 
+}

@@ -1,0 +1,94 @@
+{
+    "data":[
+        {
+            "id":1,
+            "title":"Guitar Fender Stratocaster 1019",
+            "description":"Guitar version 1019 good reviews",
+            "image":"1.jpeg",
+            "price":9050,
+            "category":"guitar electric string",
+            "tags":"promo special",
+            "brand":"fender"
+        },
+        {
+            "id":2,
+            "title":"Guitar Epiphone 20921",
+            "description":"Muy buena caja de resonancia",
+            "image":"2.jpeg",
+            "price":4000,
+            "category":"guitar electric string",
+            "tags":"promo",
+            "brand":"epiphone"
+        },
+        {
+            "id":3,
+            "title":"Guitar Paracho a12",
+            "description":"Classical Guitar with good strings",
+            "image":"3.jpg",
+            "price":500,
+            "category":"guitar string",
+            "tags":"",
+            "brand":"paracho"
+        },
+        {
+            "id":4,
+            "title":"Bass Cort 2303",
+            "description":"Good epicenter and good strings, color red",
+            "image":"4.jpeg",
+            "price":3500,
+            "category":"string",
+            "tags":"promo",
+            "brand":"cort"
+        },
+        {
+            "id":5,
+            "title":"Bass Yamaha 02d2",
+            "description":"Good String, this is the best on the market",
+            "image":"5.jpeg",
+            "price":9000,
+            "category":"string",
+            "tags":"special",
+            "brand":"yamaha"
+        },
+        {
+            "id":6,
+            "title":"Clarinete Yamaha 1920",
+            "description":"Does not include the reeds",
+            "image":"6.jpeg",
+            "price":10000,
+            "category":"wind",
+            "tags":"",
+            "brand":"yamaha"
+        },
+        {
+            "id":7,
+            "title":"Trumpet Dijkstra Martin 2398",
+            "description":"Dijkstra 2398 trumpet with good vibes only",
+            "image":"7.jpeg",
+            "price":20000,
+            "category":"wind",
+            "tags":"special",
+            "brand":"martin"
+        },
+        {
+            "id":8,
+            "title":"Trumpet Gibson 39823",
+            "description":"Trumpet Gibson 39823, good reviews on the www.jdsña.com ad;skfja;sjfds;l",
+            "image":"8.jpeg",
+            "price":3500,
+            "category":"wind",
+            "tags":"bestsell",
+            "brand":"gibson"
+        },
+        {
+            "id":9,
+            "title":"Sax Ibanez 39382",
+            "description":"Sax Ibanez 39382, color red",
+            "image":"9.jpeg",
+            "price":7300,
+            "category":"wind",
+            "tags":"bestsell promo",
+            "brand":"ibanez"
+        }    
+    ]
+}

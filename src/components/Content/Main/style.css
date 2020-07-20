@@ -1,0 +1,67 @@
+.mainContainer{
+    border: .5px black solid;
+    background-color: #4A9AF0;
+    border-radius: 5px;
+}
+
+.filterItem{
+    margin: 25px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.productsPaper{
+    margin: 25px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.filterItem h4 {
+    font-weight: 200;
+    color: #013770;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    text-align:  center;
+    letter-spacing: 2px;
+}
+
+.filterImg{
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.cardTitle {
+    text-align: center;
+    font-weight: 700;
+    color: #46A3B9;
+    border-bottom: #46A3B9 solid 1px;
+}
+
+.cardPrice {
+    text-align: right;
+    color: orange;
+    border-bottom: #46A3B9 1px solid;
+    font-weight: 700;
+}
+
+.productRow{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card {
+    margin-bottom:  30%;
+    margin-left: 30%;
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 300px;
+}
+
+.descriptionContainer{
+    height: 60px;
+}

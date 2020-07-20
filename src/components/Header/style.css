@@ -1,0 +1,42 @@
+.header{
+    border: .5px solid;
+    background-color: #027BFD;
+}
+
+.logo{
+    max-width: 80%;
+    max-height: 80%;
+    margin-left: 20%;
+}
+
+.rowHead{
+    margin: 15px;
+}
+
+
+.rowHead div h1{
+    color: beige;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-left: 10px;
+    border-bottom: beige 1px solid;
+}
+
+.accountContainer{
+    align-items: center;
+}
+
+.sessionImg{
+    margin-top: 15%;
+    margin-left: 15%;
+    height: 40%;
+    width: 40%;
+    
+}
+
+.myAccount{
+    color: beige;
+    margin-left: 16%;
+    font-weight: 300;
+    text-align: center;
+}
