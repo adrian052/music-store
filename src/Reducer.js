@@ -15,6 +15,17 @@ const Reducer = (state,action) => {
                 ...state,
                 tags: action.payload
             }
+        case 'CHANGE_SEARCH':
+            return {
+                ...state,
+                search: action.payload
+            }
+        case 'CHANGE_PRICE':
+            return {
+                ...state,
+                minPrice: action.min,
+                maxPrice: action.max
+            }
         default:
             return state
     }

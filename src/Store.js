@@ -4,7 +4,10 @@ import Reducer from './Reducer'
 const initialState = {
     categories: [],
     brands: [],
-    tags:[]
+    tags:[],
+    search: '',
+    minPrice: 0,
+    maxPrice: 10000000
 }
 
 

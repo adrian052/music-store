@@ -33,9 +33,10 @@ function FilterItem({title,filterList,actionType}) {
                     {filterList
                     .map(filter=>
                     <Form.Check 
+                    key={filter}
                     custom 
                     type='checkbox'
-                    id={filter}label={filter.replace(/^./, filter[0].toUpperCase())}/>)}
+                    id={filter} label={filter.replace(/^./, filter[0].toUpperCase())}/>)}
                 </div>
             </Form>
         </div>

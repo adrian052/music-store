@@ -6,9 +6,9 @@
             "description":"Guitar version 1019 good reviews",
             "image":"1.jpeg",
             "price":9050,
-            "category":"guitar electric string",
+            "categories":"guitar electric string",
             "tags":"promo special",
-            "brand":"fender"
+            "brands":"fender"
         },
         {
             "id":2,
@@ -16,9 +16,9 @@
             "description":"Muy buena caja de resonancia",
             "image":"2.jpeg",
             "price":4000,
-            "category":"guitar electric string",
+            "categories":"guitar electric string",
             "tags":"promo",
-            "brand":"epiphone"
+            "brands":"epiphone"
         },
         {
             "id":3,
@@ -26,9 +26,9 @@
             "description":"Classical Guitar with good strings",
             "image":"3.jpg",
             "price":500,
-            "category":"guitar string",
+            "categories":"guitar string",
             "tags":"",
-            "brand":"paracho"
+            "brands":"paracho"
         },
         {
             "id":4,
@@ -36,9 +36,9 @@
             "description":"Good epicenter and good strings, color red",
             "image":"4.jpeg",
             "price":3500,
-            "category":"string",
+            "categories":"string",
             "tags":"promo",
-            "brand":"cort"
+            "brands":"cort"
         },
         {
             "id":5,
@@ -46,9 +46,9 @@
             "description":"Good String, this is the best on the market",
             "image":"5.jpeg",
             "price":9000,
-            "category":"string",
+            "categories":"string",
             "tags":"special",
-            "brand":"yamaha"
+            "brands":"yamaha"
         },
         {
             "id":6,
@@ -56,9 +56,9 @@
             "description":"Does not include the reeds",
             "image":"6.jpeg",
             "price":10000,
-            "category":"wind",
+            "categories":"wind",
             "tags":"",
-            "brand":"yamaha"
+            "brands":"yamaha"
         },
         {
             "id":7,
@@ -66,9 +66,9 @@
             "description":"Dijkstra 2398 trumpet with good vibes only",
             "image":"7.jpeg",
             "price":20000,
-            "category":"wind",
+            "categories":"wind",
             "tags":"special",
-            "brand":"martin"
+            "brands":"martin"
         },
         {
             "id":8,
@@ -76,9 +76,9 @@
             "description":"Trumpet Gibson 39823, good reviews on the www.jdsña.com ad;skfja;sjfds;l",
             "image":"8.jpeg",
             "price":3500,
-            "category":"wind",
+            "categories":"wind",
             "tags":"bestsell",
-            "brand":"gibson"
+            "brands":"gibson"
         },
         {
             "id":9,
@@ -86,9 +86,9 @@
             "description":"Sax Ibanez 39382, color red",
             "image":"9.jpeg",
             "price":7300,
-            "category":"wind",
+            "categories":"wind",
             "tags":"bestsell promo",
-            "brand":"ibanez"
+            "brands":"ibanez"
         }    
     ]
 }

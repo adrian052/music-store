@@ -10,11 +10,11 @@ function CardFooter() {
                 </Col>
                 <Col sm={12}>
                     <ul className="footerList">
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
+                        <li><a>1</a></li>
+                        <li><a>2</a></li>
+                        <li><a>3</a></li>
+                        <li><a>4</a></li>
+                        <li><a>5</a></li>
                     </ul>
                 </Col>
             </Row>
